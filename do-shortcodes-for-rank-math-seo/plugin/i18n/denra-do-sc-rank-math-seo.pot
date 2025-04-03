@@ -1,0 +1,122 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Do Shortcodes for Rank Math SEO\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-15 17:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.2; wp-5.4-RC5-47533"
+
+#: plugin/classes/DoShortcodesRankMathSEO.php:153
+msgid "Change filters' priority:"
+msgstr ""
+
+#. Author of the plugin
+msgid "Denra.com aka SoftShop Ltd"
+msgstr ""
+
+#: plugin/classes/DoShortcodesRankMathSEO.php:132
+msgid "Do shortcodes for Facebook (Open Graph)"
+msgstr ""
+
+#: plugin/classes/DoShortcodesRankMathSEO.php:125
+msgid "Do shortcodes for meta title and description"
+msgstr ""
+
+#. Name of the plugin
+#: plugin/classes/DoShortcodesRankMathSEO.php:25
+msgid "Do Shortcodes for Rank Math SEO"
+msgstr ""
+
+#: plugin/classes/DoShortcodesRankMathSEO.php:138
+msgid "Do shortcodes for Twitter"
+msgstr ""
+
+#: plugin/classes/DoShortcodesRankMathSEO.php:144
+msgid "Do shortcodes in other locations"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Do shortcodes in SEO title, description, keywords, Facebook, Twitter and "
+"other locations for Rank Math SEO."
+msgstr ""
+
+#: plugin/classes/DoShortcodesRankMathSEO.php:134
+msgid "Facebook Description"
+msgstr ""
+
+#: plugin/classes/DoShortcodesRankMathSEO.php:133
+msgid "Facebook Title"
+msgstr ""
+
+#: plugin/classes/DoShortcodesRankMathSEO.php:152
+msgid "Filters' Priority"
+msgstr ""
+
+#. URI of the plugin
+msgid ""
+"https://denra.com/products/wordpress/plugins/do-shortcodes-for-rank-math-seo/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.denra.com/"
+msgstr ""
+
+#: plugin/classes/DoShortcodesRankMathSEO.php:159
+msgid "In case the filters do not work. Higher is better."
+msgstr ""
+
+#: plugin/classes/DoShortcodesRankMathSEO.php:158
+msgid "In case they do not work already."
+msgstr ""
+
+#: plugin/classes/DoShortcodesRankMathSEO.php:128
+msgid "In Schema"
+msgstr ""
+
+#: plugin/classes/DoShortcodesRankMathSEO.php:127
+msgid "Meta Description"
+msgstr ""
+
+#: plugin/classes/DoShortcodesRankMathSEO.php:126
+msgid "Meta Title"
+msgstr ""
+
+#: plugin/classes/DoShortcodesRankMathSEO.php:147
+msgid "Navigation Menu"
+msgstr ""
+
+#: plugin/classes/DoShortcodesRankMathSEO.php:146
+msgid "Post/Page Content"
+msgstr ""
+
+#: plugin/classes/DoShortcodesRankMathSEO.php:145
+msgid "Post/Page Title"
+msgstr ""
+
+#: plugin/classes/DoShortcodesRankMathSEO.php:140
+msgid "Twitter Description"
+msgstr ""
+
+#: plugin/classes/DoShortcodesRankMathSEO.php:139
+msgid "Twitter Title"
+msgstr ""
+
+#: plugin/classes/DoShortcodesRankMathSEO.php:148
+msgid "Widget Title and Content"
+msgstr ""
+
+#: plugin/classes/DoShortcodesRankMathSEO.php:157
+msgid ""
+"Works when separate Twitter data is entered. Does not work when \\Facebook "
+"data is used."
+msgstr ""
