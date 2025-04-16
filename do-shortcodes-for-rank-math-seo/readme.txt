@@ -3,8 +3,8 @@ Contributors: denra, itinchev
 Donate link: https://www.paypal.me/itinchev
 Tags: rank math, seo, shortcode, apply, shortcodes
 Requires at least: 4.0
-Tested up to: 6.7.1
-Stable tag: 1.2.3
+Tested up to: 6.8
+Stable tag: 1.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -47,6 +47,11 @@ Please [contact us](mailto:support@denra.com) by e-mail if you need more informa
 It will start doing it's job. That's all, folks!
 
 == Changelog ==
+
+= 1.2.4 =
+* Fixed: Notice for incorrect call of _load_textdomain_just_in_time function for the new WordPress versions was removed.
+* Improved: Framework compatibility for the fixed notice.
+* Improved: Compatibility with WordPress version 6.8.
 
 = 1.2.3 =
 * Removed: The localization code of the Framework for the administration page is leading to a system notice in the PHP error log file with the new WordPress 6.7.x versions, so it was removed for now. The localization ability will be restored in a future framework version.

@@ -54,15 +54,6 @@ class Plugin extends BasicExtra {
         }
          
         add_action('init', [$this, 'hookInitPlugin']);
-        
-        if (\current_user_can('manage_options')) {
-            if ($this->admin_title_menu) {
-                \add_action('admin_menu', [&$this, 'settingsSubMenu'], 2);
-                \add_filter('plugin_action_links_'.\plugin_basename($this->file), [&$this, 'settingsLink']);
-            }
-            \add_filter('plugin_row_meta', [&$this, 'pluginRowMeta'], 10, 2);
-        }
-        
     }
     
     public function hookInitPlugin() {
@@ -70,6 +61,12 @@ class Plugin extends BasicExtra {
             require_once( \ABSPATH . 'wp-admin/includes/plugin.php' );
         }
         $this->data = \get_plugin_data($this->file);
+        
+        if (\current_user_can('manage_options')) {
+            \add_action('admin_menu', [&$this, 'settingsSubMenu'], 2);
+            \add_filter('plugin_action_links_'.\plugin_basename($this->file), [&$this, 'settingsLink']);
+            \add_filter('plugin_row_meta', [&$this, 'pluginRowMeta'], 10, 2);
+        }
     }
     
     public function settingsSubMenu() {
@@ -77,7 +74,6 @@ class Plugin extends BasicExtra {
         global $denra_plugins;
         
         \add_submenu_page($denra_plugins['framework']->id,  $this->data['Name'] . ' ' . $this->data['Version'], $this->admin_title_menu, 'manage_options', $this->id, [&$this, 'adminPage']);
-        
     }
     
     function settingsLink($links) {

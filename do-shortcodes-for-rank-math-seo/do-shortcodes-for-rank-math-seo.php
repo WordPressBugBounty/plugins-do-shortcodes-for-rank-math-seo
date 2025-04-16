@@ -4,7 +4,7 @@
 Plugin Name: Do Shortcodes for Rank Math SEO
 Plugin URI: https://denra.com/products/wordpress/plugins/do-shortcodes-for-rank-math-seo/
 Description:  Display shortcodes in the title, description, Facebook and Twitter fields, and other locations for Rank Math SEO.
-Version: 1.2.3
+Version: 1.2.4
 Author: Denra.com aka SoftShop Ltd
 Author URI: https://www.denra.com/
 Text Domain: denra-do-sc-rank-math-seo
@@ -43,7 +43,7 @@ $denra_plugins['data'][$plugin_id] = [
     'file' => __FILE__,
     'dir' => \plugin_dir_path(__FILE__),
     'url' => \plugin_dir_url(__FILE__),
-    'framework_version' => '1.3.8' // MUST match $version in Framework.php
+    'framework_version' => '1.3.9' // MUST match $version in Framework.php
 ];
 
 # STOP EDITING HERE! DO NOT TOUCH BELOW THIS LINE! #

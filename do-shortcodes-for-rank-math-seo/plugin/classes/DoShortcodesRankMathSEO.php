@@ -8,7 +8,7 @@
  * @author     Denra.com aka SoftShop Ltd <support@denra.com>
  * @copyright  2020 Denra.com aka SoftShop Ltd
  * @license    GPLv2 or later
- * @version    1.3.2
+ * @version    1.3.3
  * @link       https://www.denra.com/
  */
 
@@ -20,9 +20,6 @@ class DoShortcodesRankMathSEO extends Plugin {
         
         // Set text_domain for the framework
         $this->text_domain = 'denra-do-sc-rank-math-seo';
-        
-        // Set admin menus texts
-        $this->admin_title_menu = \__('Do Shortcodes for Rank Math SEO', 'denra-do-sc-rank-math-seo');
         
         $this->settings_default['do_shortcodes'] = [
             'rank_math_seo_title' => 1,
@@ -48,6 +45,8 @@ class DoShortcodesRankMathSEO extends Plugin {
     }
     
     public function hookInitDoShortcodesRankMathSEO() {
+    
+        $this->admin_title_menu = \__('Do Shortcodes for Rank Math SEO', 'denra-do-sc-rank-math-seo');
         
         if ($this->settings['do_shortcodes']['rank_math_seo_title']) {
             \add_filter('rank_math/frontend/title', [$this, 'doShortcodes'], $this->settings['filters_priority']);

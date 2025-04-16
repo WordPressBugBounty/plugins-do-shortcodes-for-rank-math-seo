@@ -8,7 +8,7 @@
  * @author     Denra.com aka SoftShop Ltd <support@denra.com>
  * @copyright  2019-2024 Denra.com aka SoftShop Ltd
  * @license    GPLv2 or later
- * @version    1.3.8
+ * @version    1.3.9
  * @link       https://www.denra.com/
  */
 
@@ -22,7 +22,7 @@ namespace Denra\Plugins;
 class Framework extends BasicExtra {
     
     // The version here and above in the comments MUST MATCH !!!
-    public static $version = '1.3.8';
+    public static $version = '1.3.9';
     
     public $url_website = 'https://denra.com/';
     public $url_support_page = 'https://denra.com/';
@@ -134,17 +134,17 @@ class Framework extends BasicExtra {
             'Denra Plugins',
             'Denra Plugins',
             'manage_options',
-            $this->id,
+            'denra-plugins',
             [&$this, 'settings'],
             $this::LOGO_SIGN_BASE64_ENCODED,
             NULL
         );
         \add_submenu_page(
-            $this->id,
+            'denra-plugins',
             \__('Home', 'denra-plugins'),
             \__('Home', 'denra-plugins'),
             'manage_options',
-            $this->id);
+            'denra-plugins');
         
     }
     
